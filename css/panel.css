@@ -1,0 +1,28 @@
+
+/* end Bootstrap overrides */
+/*#faq .row div.panel-default>.panel-heading  {
+  background-color: #fff;
+  border-radius: inherit;
+  border: solid 1px #9EB949;
+}
+#faq .row .panel-body {
+  background-color: #fff;
+  margin-top: 0.3em;
+}
+.panel-default {
+  border: none;
+}
+.panel-body p {
+  color: #081802;
+  font-size: 1.4em;
+
+}*/
+.panel-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/*
+#accordion, #video {
+  background: none;
+}*/

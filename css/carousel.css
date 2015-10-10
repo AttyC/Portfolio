@@ -1,0 +1,38 @@
+/* carousel */
+#homeCarousel {
+  height: 350px;
+  width: 600px;
+  margin: auto;
+}
+.carousel-caption {
+  top: 2em;
+
+}
+.carousel-caption > h3, .carousel-caption > p {
+  color: #fff;
+}
+.carousel-caption > h3 {
+  font-size: 2.5em;
+}
+.carousel-caption > p {
+  font-size: 2em;
+  background-color: rgba(7,39,28,0.8);
+    -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+.carousel-caption .logo {
+  width: 400px;
+}
+.carousel-control .glyphicon {
+  color:#dc2c2c;
+  font-size: 2em;
+  top: 4em;
+}
+.carousel-inner>.item>img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}

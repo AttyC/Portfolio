@@ -1,0 +1,28 @@
+.nav {
+  float: right;
+}
+.navbar {
+  /* background-color: rgba(210, 226, 242, 0.34);*/
+  background-color: blue;
+  min-height: 40px;
+  margin: 0;
+}
+.navbar ul li {
+  display: inline;
+  padding: 0.5em 1em;
+}
+.navbar ul li a {
+  display: inline;
+  color: #dc2c2c;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: color 600ms;
+  -webkit-transition: color 400ms;
+  font-size: 1.2em;
+  font-weight: bold;
+ 
+}
+.nav a:hover, .panel-title a:hover {
+  color: #081802;
+  text-decoration: none;
+}

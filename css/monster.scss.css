@@ -1,0 +1,352 @@
+/* base */
+/* base */
+/* base */
+* {
+  box-sizing: border-box;
+}
+/* end base */
+
+/* layout */
+html {
+}
+
+body {
+  background-color: #fff;
+  position: relative;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ol {
+  padding-left: 1em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+img, 
+iframe {
+  border: 2px solid #ccc;  
+}
+
+/* footer */
+
+footer {
+  color: #fff;
+  background: #c22f71;
+  font-size: 1.5em;
+
+}
+.copyright {
+  display: block;
+  margin: 1em auto;
+  text-align: center;
+}
+
+/* /footer */
+
+/* Containers */
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  clear: both;
+}
+.col-md-4 {
+  padding-top: 1em;
+}
+.col-md-3 {
+  padding-left: 0;
+}
+
+/* /containers */
+
+/*Jumbotron */
+
+.jumbotron {
+  background: url("../img/bulb.jpg") center no-repeat;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  height: 250px; /*mobile */
+  margin: 0;
+}
+.jumbotron h1  {
+  color: pink;
+  position: relative;
+
+  line-height: 1em;
+  width: 75%; /*need width due to position left pushing it off page */
+}
+
+span.tease {
+  font-family: 'Courgette', cursive;
+  display: block;
+  font-size: 0.5em;
+  color: #bbb;
+}
+.right {
+  margin-left: 3em;
+}
+.anchor h2,
+#intro .inner {
+  text-align: center;
+}
+
+/* end layout */
+
+/* Nav */
+li.active,
+li.hover,
+li.focus {
+  background-color: whitesmoke;
+}
+.nav {
+  float: right;
+}
+
+.navbar {
+  background-color: rgba(41,35,35, 0.5);
+}
+
+.navbar a, .navbar span {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+          transition: color 600ms;
+  -webkit-transition: color 600ms;
+  font-size: 1.4em;
+  font-weight: bold;
+
+}
+.navbar a {
+  color: pink;
+}
+.navbar span {
+  color: #FDC03B;
+}
+
+
+nav li, 
+.navbar-brand,
+ {
+  background-color: whitesmoke;
+}
+.navbar>.container-fluid .navbar-brand {
+  margin-left: 0.3em;
+} 
+
+.navbar a:hover, 
+.navbar a:active 
+{
+  color: #081802;
+}
+
+button.navbar-toggle:hover,
+button.navbar-toggle:focus {
+  background-color: pink;
+}
+button.navbar-toggle span {
+  background-color: #292322;
+}
+/* end nav */
+
+/* Typography */
+
+.anchor h2 {
+  margin: 1em 0 0 0;
+  font-size: 2.5em;
+  color: #c22f71;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 0;
+}
+
+a, 
+a:hover, 
+form label {
+  text-decoration: none;
+  color: #c22f71;
+}
+.col-md-4 p, 
+.col-md-4 li, 
+.main-text h3, 
+#about p, 
+#about li, #skills li, #contact li {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0.5em;
+  line-height: 2em;
+}
+
+/* Form */
+
+div#form {
+  padding: 0;
+  background: inherit;
+}
+form {
+  margin-left: 3em;
+}
+.form-group {
+  width: 70%;
+}
+
+textarea {
+  display: block;
+}
+
+form label, 
+form p {    
+  font-size: 1.2em;
+}
+
+input[placeholder], 
+textarea[placeholder] {
+  font-weight: bold;
+} 
+
+.btn-default {
+  font-weight: bold;
+  margin: 0 0 1em 0;
+  background-color: #c22f71;
+  color: #eee;
+  padding: 1em;
+}
+
+/* /form */
+
+/* Modal */
+
+.modal-header .close {
+  opacity: 1;
+  margin-top: -40px;
+}
+.modal-button {
+  margin-top: 1em;
+}
+button.close span {
+  display: block;
+  background-color: #ccc;
+  padding: 10px;
+  color: black;grey
+}
+
+.row .modal-body {
+  height: 500px;
+}
+.modal-title {
+  font-size: 3em;
+}
+#modalFrame {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+#tooltip1.hover {
+}
+/* /modal */
+
+/* Div styles */
+
+#contact div {
+  margin: auto;
+}
+#contact ul {
+  margin-left: 4em;
+}
+
+#contact li a {
+  margin-left: -0.25em;
+}
+
+.glyphicon {
+  margin-right: 0.7em;
+  vertical-align: text-top;
+}
+
+.inner {
+  margin: auto;
+  text-align: center;
+}
+
+#about img {
+  float: right;
+}
+#about, #skills, #contact {
+  background-color: #eee;
+}
+
+#skills li {
+  margin-left: 0.3em;
+  display: inline-block;
+  /*background: url("../img/plus_10.png") 0 40% no-repeat;*/
+}
+
+#intro .col-md-4, #intro .col-xs-12, #about .col-xs-12 {
+  background: none;
+}
+
+/* Social Media icons */
+ul.socialicons { 
+  list-style: none; 
+  margin: auto;
+  text-align: center;
+} 
+ul.socialicons li { 
+  display: inline-block;
+  padding: 1em;
+} 
+
+ul.socialicons img {
+  border: none;
+}
+
+/* Projects */
+#work .row {
+  text-align: center;
+}
+.image {
+  box-sizing:border-box;
+  border: 1px solid #ddd;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  position: relative;
+}
+.image a {
+  color: pink;
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+.image a:hover {
+  color: #fff;
+}
+.info {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  line-height: 1.6em;
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  padding-left: 1em;
+  background-color: rgba(41, 35, 35, 0.6);
+}
+.proj-title {
+  font-weight: 100;
+
+}
