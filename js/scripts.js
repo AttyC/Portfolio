@@ -1,20 +1,22 @@
 
-
 $(document).ready(function(){
 
 /* Projects - examples of work */
   var myProjects = [ 
-    { title: "Karthaus Design", pic: "img/KD_shot.jpg", href: "http://karthaus.co.uk/", description: "Website templates HTML/CSS. Client specified static design." }, 
-    { title: "D'Cunha Vincent Consulting", pic: "img/dcunhavincent_shot.jpg", href: "http://www.dcunhavincent.co.uk/", description: "Designed in collaboration with the client. HTML, CSS, jQuery" }, 
+    { title: "Karthaus Design", pic: "img/KD_shot.jpg", href: "http://karthaus.co.uk", description: "Website templates HTML/CSS. Client specified static design." }, 
+    { title: "D'Cunha Vincent Consulting", pic: "img/dcunhavincent_shot.jpg", href: "http://www.dcunhavincent.co.uk", description: "HTML, CSS, jQuery. Designed in collaboration with the client." }, 
+    { title: "WordPress Practice", pic: "img/accelerate_shot.jpg", href: "http://www.atty-dev.co.uk", description: "Custom template and theme practice for WordPress." }, 
     { title: "Rails app", pic: "img/first_app_shot.jpg", href: "http://totsmusic.herokuapp.com", description: "First Ruby on Rails app - Stripe, Devise, Cancancan." }, 
-    { title: "Bankstreet", pic: "img/bankstreet_screenshot.jpg", href: "http://bankstreet.bitballoon.com", description: "Personal band website. HTML, CSS" }
+    { title: "Bankstreet", pic: "img/bankstreet_screenshot.jpg", href: "http://bankstreet.bitballoon.com", description: "Personal band website. HTML, CSS" },
+    { title: "Eliza Filby", pic: "img/efilby_screenshot.jpg", href: "#", description: "Custom WordPress site, under contruction, custom themes &amp; templates" }
   ];
 
   /* display bg image */
   for (var i=0; i<myProjects.length; i++){
     console.log(myProjects[i]);
-    $("#" + i).css({"background": "url(" +  myProjects[i].pic + ") no-repeat", "background-position": "50% 0%" }); 
-    $("#" + i).html("<a target='blank' href=" + myProjects[i].href + "><p class='description'>" + myProjects[i].description + "</p></a>");
+      $("#" + i).css({"background": "url(" +  myProjects[i].pic + ") no-repeat", "background-position": "50% 0%" }); 
+      $("#" + i).html("<a target='blank' href=" + myProjects[i].href + "><p class='description'>" + myProjects[i].title + ": </br>" + myProjects[i].description + "</p></a>");
+  
   };
   /* display title on hover and hide on leave */
   /*$(".image").mouseenter(function() {

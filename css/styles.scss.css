@@ -180,14 +180,22 @@ form label {
 .col-md-4 p, 
 .col-md-4 li, 
 .main-text h3, 
-#about p, 
+p, 
 #about li, #skills li, #contact li {
   font-size: 1.3em;
   font-weight: bold;
   margin: 0.5em;
   line-height: 2em;
 }
-
+#testimonials p {
+  text-align: left;
+  font-weight: 200;
+}
+#testimonials span {
+  font-size: 0.8em;
+  font-style: italic;
+  padding: 0 2em;
+}
 /* Form */
 
 div#form {
@@ -314,6 +322,7 @@ ul.socialicons img {
 /* Projects */
 #work .row {
   text-align: center;
+  margin-bottom: 40px;
 
 }
 #work .row div.image {
@@ -354,9 +363,9 @@ ul.socialicons img {
 }
 .description {
  display: block;
- background-color: #333;
+ background-color:rgba(51,51,51, 0.7);
  padding: 0.3em;
- position: relative;
- top: 3em;
+ /*position: relative;
+ top: 3em;*/
  font-size: 1.2em;
 }
