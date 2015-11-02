@@ -31,9 +31,10 @@ $(document).ready(function() {
   var either = " either ";
   var choice = "Make your choice!";
   var intro ="<p>I was inspired to write a program while reading this wonderful book to my children, so I could practice my code and make them a game, at the same time. The story is about what happens when a monster is born and presents a series of boolean selections (there are two possibilities...). I would read the book and plan the code in my head while they fell asleep!</p>"
+  var github_link = "<a href='https://github.com/AttyC/Portfolio/blob/master/js/monsterBorn.js' target='_blank'>jQuery code on Github</a>";
   
   var i = 0; //set first screen
-  $("#monsterPic").html("<a href='http://www.amazon.co.uk/When-A-Monster-Is-Born/dp/1846165113' target='_blank'><img src='img/monster.jpg' alt='When a monster is born'></a>" + intro + "<h3>When a Monster is Born...</h3>"  + poss + "<p>" + either + monsterStory[i].story1 + "<br/>" + monsterStory[i].story2 + "</p>" + choice);
+  $("#monsterPic").html(github_link + "<a href='http://www.amazon.co.uk/When-A-Monster-Is-Born/dp/1846165113' target='_blank'><img src='img/monster.jpg' alt='When a monster is born'></a>" + intro + "<h3>When a Monster is Born...</h3>"  + poss + "<p>" + either + monsterStory[i].story1 + "<br/>" + monsterStory[i].story2 + "</p>" + choice);
   $("#monsterPic").css("background", monsterStory[i].bg1);
 
   //buttons for story choices - 0 or 1
