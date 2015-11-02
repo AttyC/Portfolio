@@ -1,6 +1,5 @@
 /* base */
-/* base */
-/* base */
+
 * {
   box-sizing: border-box;
 }
@@ -34,7 +33,70 @@ img,
 iframe {
   border: 2px solid #ccc;  
 }
+#monster {
+  margin: 2em auto;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+#monster ul li {
+   text-align: left;
+   margin: 0 0 0 0.4em;
+}
+#monster ul li a {
+  font-size: 0.7em;
 
+}
+#monsterPic {
+  color: #fff;
+}
+#monsterPic p {
+  margin: 0.5em 0;
+}
+#monsterPic img {
+  width: 200px;
+  float: left;
+  margin: 1em;
+}
+.mainpic {
+  border: red 1px solid;
+}
+.mainpic h3 {
+  text-align: center;
+  margin: 0.2em;
+}
+h4 a {
+  color: #000;
+  
+}
+h5 {
+  font-size: 1.2em;
+  color: yellow;
+}
+.hide {
+  display: none;
+}
+.choiceButton p {
+  border: 2px solid blue;
+
+}
+.choiceButton {
+  padding: 2em;
+  background-color: #220C10;
+  color: #fff;
+  height: 200px;
+
+}
+.choiceButton .active{
+
+  background-color: #blue;
+
+}
+.that {
+  background-color: darkblue;
+  color: yellow;
+  font-size: 3em;
+}
 /* footer */
 
 footer {

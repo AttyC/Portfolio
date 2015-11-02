@@ -4,7 +4,8 @@ $(document).ready(function(){
 /* Projects - examples of work */
   var myProjects = [ 
     { title: "Karthaus Design", pic: "img/KD_shot.jpg", href: "http://karthaus.co.uk", description: "Website templates HTML/CSS. Client specified static design." }, 
-    { title: "D'Cunha Vincent Consulting", pic: "img/dcunhavincent_shot.jpg", href: "http://www.dcunhavincent.co.uk", description: "HTML, CSS, jQuery. Designed in collaboration with the client." }, 
+    { title: "D'Cunha Vincent Consulting", pic: "img/dcunhavincent_shot.jpg", href: "http://www.dcunhavincent.co.uk", description: "HTML, CSS, jQuery. Designed in collaboration with the client." },
+    { title: "jQuery: When a Monster is Born", pic: "img/monster_shot.jpg", href: "monsterBorn.html", description: "I read a children's book and was inspired to write a program." },  
     { title: "WordPress Practice", pic: "img/accelerate_shot.jpg", href: "http://www.atty-dev.co.uk", description: "Custom template and theme practice for WordPress." }, 
     { title: "Rails app", pic: "img/first_app_shot.jpg", href: "http://totsmusic.herokuapp.com", description: "First Ruby on Rails app - Stripe, Devise, Cancancan." }, 
     { title: "Bankstreet", pic: "img/bankstreet_screenshot.jpg", href: "http://bankstreet.bitballoon.com", description: "Personal band website. HTML, CSS" },

@@ -21,7 +21,6 @@
    <script src="js/monsterBorn.js"></script>
 
     <!-- Custom styles for this template go here -->
-    <link rel='stylesheet' href='css/styles.scss.css'/>
     <link rel='stylesheet' href='css/monster.scss.css'/>
     
     <!-- Just for debugging purposes. Don't actually copy this line! -->
@@ -35,89 +34,32 @@
     <![endif]-->
   </head>
   <body data-spy="scroll" data-target="#myScrollSpy" data-offset="20">
- 
 
-     <div class="container anchor" id="monster"><!--container work-->
-      <h2>Monster Born</h2>
-      <div class="row"><!-- row of images for projects -->
-
-        <div class="col-md-3 col-sm-6">
-          <div class="main-image" id="main-image" style="height: 400px; width: 400px; background-color: red;"></div>
-        </div>
+     <div class="container-fluid anchor" id="monster"><!--container work-->
 
 
-        <!--<div class="col-md-3 col-sm-6">
-          <div class="image" id="0"></div>
-        </div>-->
-        <!--<div class="col-md-3 col-sm-6">
-          <div class="image" id="1"></div>
-        </div>-->
-      </div><!-- end row -->
+         
+        <div class="row">
+          <div id="monsterPic"  class="mainpic col-md-8 col-md-offset-2 col-xs-12">
+          </div>
+          
+          <div class="col-md-8 col-md-offset-2 col-xs-12">
+            <button class="choiceButton" name="monster_button" value="1" type="submit" id="monster_button">
+            Play again</button>
+          </div>
 
-    <form>
-  ///<br />
-  <input type="radio" name="choice" id="radio0">Faraway-in-the-Forests<br>
-  <input type="radio" name="choice" id="radio1">Under-the-bed
-    </form>
-
-<!--<button onclick="check_red()">Check "Red"</button>
-<button onclick="check_blue()">Check "Blue"</button>-->
-
-
+          <div class="col-md-4 col-md-offset-2 col-xs-6">
+            <button name="button0" value="0" type="submit" id="button0" class="choiceButton">Button 0</button>
+          </div>
+          
+          <div class="col-md-4 col-xs-6">
+            <button name="button1" value="1" type="submit" id="button1" class="choiceButton">Button 1</button>
+          </div>
+      </div>
+    
 
     </div><!-- /container monster-->
     
-    <button class="my_button" name="buttonName" value="1" type="submit" id="submit_button">
-    Make my choice!</button>
-    <button class="my_button" name="buttonName" value="1" type="submit" id="next_story_button">
-   Next story</button>
 
-    <!-- 
-    ================================================== -->
-    <!-- Can place script tags with JavaScript files here -->
-
-<!--
-<script>
-var user = prompt("...").toLowerCase();
-
-switch(user){
-    case 'fairy':
-        var fly = prompt("Hello, fairy! Can you fly? YES or NO?").toUpperCase();
-        var fairyDust = prompt ("Can you make fairy dust? YES or NO?").toUpperCase();
-        if (fly === "YES" && fairyDust === "YES") {
-            alert("Good for you, you're a fully-fledged SuperFairy!");
-        }
-        else if(fly === "YES" ||  fairyDust === "YES") {
-            alert("You are on your way to being a SuperFairy!");
-        }
-        break;
-    case 'elf':
-      var magic = prompt("Hello, Elf! Can you make magic? YES or NO?").toUpperCase();
-        var makeToys = prompt ("Can you make toys? YES or NO?").toUpperCase();
-        if (magic === "YES" && makeToys === "YES") {
-            alert("Good for you, you're a fully-fledged SuperElf!");
-        }
-        else if(magic === "YES" ||  makeToys === "YES") {
-            alert("You are on your way to being a SuperElf!");
-        }
-        break;
-    case 'troll':
-    var potions = prompt("Hello, Troll! Can you make mix potions?? YES or NO?").toUpperCase();
-        var hide = prompt ("Can you hide in swampy places? YES or NO?").toUpperCase();
-        if (potions === "YES" && hide === "YES") {
-            alert("Good for you, you're a fully-fledged SuperTroll!");
-        }
-        else if(potions === "YES" ||  hide === "YES") {
-            alert("You are on your way to being a SuperTroll!");
-        }
-        break;
-    default:
-      alert("Something else, eh?");
-}
-
-
-</script>
--->
-    
   </body>
 </html>
