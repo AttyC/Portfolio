@@ -3,13 +3,14 @@ $(document).ready(function(){
 
 /* Projects - examples of work */
   var myProjects = [ 
-    { title: "Karthaus Design", pic: "img/KD_shot.jpg", href: "http://karthaus.co.uk", description: "Website templates HTML/CSS. Client specified static design." }, 
+    { title: "Karthaus Design", pic: "img/KD_shot.jpg", href: "http://karthaus.co.uk", description: "Responsive website templates HTML/CSS. Client specified static design." }, 
     { title: "D'Cunha Vincent Consulting", pic: "img/dcunhavincent_shot.jpg", href: "http://www.dcunhavincent.co.uk", description: "HTML, CSS, jQuery. Designed in collaboration with the client." },
-    { title: "jQuery: When a Monster is Born", pic: "img/monster_shot.jpg", href: "monsterBorn.html", description: "I read a children's book and was inspired to write a program." },  
-    { title: "WordPress Practice", pic: "img/accelerate_shot.jpg", href: "http://www.atty-dev.co.uk", description: "Custom template and theme practice for WordPress." }, 
-    { title: "Rails app", pic: "img/first_app_shot.jpg", href: "http://totsmusic.herokuapp.com", description: "First Ruby on Rails app - Stripe, Devise, Cancancan." }, 
-    { title: "Bankstreet", pic: "img/bankstreet_screenshot.jpg", href: "http://bankstreet.bitballoon.com", description: "Personal band website. HTML, CSS" },
-    { title: "Eliza Filby", pic: "img/efilby_screenshot.jpg", href: "#", description: "Custom WordPress site, under contruction, custom themes &amp; templates" }
+    { title: "jQuery - When a Monster is Born", pic: "img/monster_shot.jpg", href: "monsterBorn.html", description: "I read a children's book and was inspired to write a program." },  
+    { title: "WordPress - Dev ", pic: "img/accelerate_shot.jpg", href: "http://www.atty-dev.co.uk", description: "Custom template and themes for WordPress." }, 
+    { title: "WordPress - Eliza Filby", pic: "img/efilby_screenshot.jpg", href: "https://github.com/AttyC/elizafilby", description: "View on Github: Custom WordPress site, under construction, custom themes &amp; templates" },
+    { title: "Rails app - Dev", pic: "img/first_app_shot.jpg", href: "http://totsmusic.herokuapp.com", description: "First Ruby on Rails app - Stripe, Devise, Cancancan." }, 
+    { title: "Bankstreet", pic: "img/bankstreet_screenshot.jpg", href: "http://bankstreet.bitballoon.com", description: "Personal band website. HTML, CSS" }
+    
   ];
 
   /* display bg image */
