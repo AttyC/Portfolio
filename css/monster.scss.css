@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: #000;
   position: relative;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   width: 100%;
@@ -34,10 +34,12 @@ iframe {
   border: 2px solid #ccc;  
 }
 #monster {
-  margin: 2em auto;
   text-align: center;
   font-size: 1.5em;
   font-weight: 200;
+  background: url("../img/monster.jpg") fixed left top no-repeat;
+  margin: 0 0 3em 0;
+
 }
 #monster ul li {
    text-align: left;
@@ -48,7 +50,8 @@ iframe {
 
 }
 #monsterPic {
-  color: #fff;
+  color: #eee;
+  padding: 2em;
 }
 #monsterPic p {
   margin: 0.5em 0;
@@ -67,31 +70,41 @@ iframe {
   font-size: 1.8em;
 }
 a {
-  color: yellow;
- 
+  color:#C3DC42;
+}
+.extra-link {
+  float: right;
+  font-size: 0.8em
 }
 
-h5 {
+h5, .monster {
   font-size: 1.2em;
-  color: yellow;
+  color: #A0B913;
 }
 .hide {
   display: none;
 }
+.start {
+  color: #347786;
+  padding: 0 1em;
+  font-size: 0.9em;
+}
+
 .choiceButton p {
   border: 2px solid blue;
 
 }
 .choiceButton {
   padding: 2em;
-  background-color: #220C10;
+  background-color: #D51C1A;
   color: #fff;
   height: 200px;
-
+  width: 400px;
 }
-.choiceButton .active{
-
-  background-color: #blue;
+.choiceButton:hover{
+  background-color: #31A5CE;
+  color: #4C4C00;
+  font-weight: bold;
 
 }
 .that {
