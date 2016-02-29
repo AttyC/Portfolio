@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: #000;
+  background-color: #FF83C1;
   position: relative;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   width: 100%;
@@ -35,9 +35,8 @@ iframe {
 }
 #monster {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: 200;
-  background: url("../img/monster.jpg") fixed left top no-repeat;
   margin: 0 0 3em 0;
 
 }
@@ -49,14 +48,18 @@ iframe {
   font-size: 0.7em;
 
 }
-#monsterPic {
-  color: #eee;
-  padding: 2em;
+#monsterPic1 {
+   /* background: url("../img/monster.jpg") fixed left top no-repeat;
+*/
 }
-#monsterPic p {
+#monsterPic2 {
+  color: #eee;
+  padding: 0 2em 2em 2em;
+}
+#monsterPic2 p {
   margin: 0.5em 0;
 }
-#monsterPic img {
+#monsterPic2 img {
   width: 200px;
   float: left;
   margin: 1em;
@@ -79,8 +82,12 @@ a {
 
 h5, .monster {
   font-size: 1.2em;
-  color: #A0B913;
+
 }
+.monster {
+  color: #737519;
+}
+
 .hide {
   display: none;
 }
@@ -89,7 +96,9 @@ h5, .monster {
   padding: 0 1em;
   font-size: 0.9em;
 }
-
+.height {
+  min-height: 320px;
+}
 .choiceButton p {
   border: 2px solid blue;
 
