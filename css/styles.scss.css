@@ -296,7 +296,13 @@ button.close span {
   float: right;
 }
 #skills, #contact, #testimonials {
-  background-color: #eee;
+  background-color: #413C3B;
+  background-color: rgba(41, 35, 34, 0.9);
+
+}
+#testimonials p, #skills li  {
+  color: #eee;
+  font-weight: 200;
 }
 
 #skills li {
@@ -325,27 +331,37 @@ ul.socialicons img {
 }
 
 /* Projects */
+
 #work .row {
   text-align: center;
   margin-bottom: 40px;
 
 }
 #work .row div.image {
-  height: 250px;
-    margin-top: 2em;
+  height: 280px;
+  margin-top: 2em;
+
 }
 .image {
   box-sizing:border-box;
   height: 162px;
 }
+
 .image a {
   color: pink;
-  display: block;
-  height: 200px;
+  display: -webkit-flex; /* Safari */
+  -webkit-justify-content: center; /* Safari 6.1+ */
+  -webkit-align-items: center; /* Safari 7.0+ */
+ 
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  height: 100%;
 }
 .image a:hover {
-  color: #aaa;
+  color: #eee;
 }
+/*
 .info {
   display: inline-block;
   color: #fff;
@@ -354,20 +370,27 @@ ul.socialicons img {
   letter-spacing: 0.2em;
   line-height: 1.6em;
   position: absolute;
-  top: 15%;
-  left: 22%;
+  top: 20%;
+  left: 10%;
   padding-left: 1em;
-  background-color: rgba(41, 35, 35, 0.6);
 }
+*/
 .proj-title {
   font-weight: 100;
 }
 .description {
- display: block;
- background-color:rgba(51,51,51, 0.9);
- padding: 0.3em;
-  font-size: 1.2em;
+  display: -webkit-flex; /* Safari */
+  -webkit-justify-content: center; /* Safari 6.1+ */
+  -webkit-align-items: center; /* Safari 7.0+ */
+ 
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  background-color: rgba(51,51,51, 0.8);
   width: 85%;
-    margin: auto;
-    border-radius: 25px;
-}
+  height: 35%;
+  font-size: 1.3em;
+  font-weight: 100;
+
+} 
+

@@ -3,31 +3,32 @@ $(document).ready(function(){
 
 /* Projects - examples of work */
   var myProjects = [ 
-    { pic: "img/KD_shot.jpg", href: "http://karthaus.co.uk", description: "Responsive website HTML/CSS templates, jQuery for homepage." }, 
-    { pic: "img/dcunhavincent_shot.jpg", href: "http://www.dcunhavincent.co.uk", description: "HTML, CSS, jQuery" },
-    { pic: "img/monster_shot.jpg", href: "monsterBorn.html", description: "jQuery - simple game based on a children's book" },
-    { pic: "img/janeward_screenshot.jpg", href: "http://www.attycool.com", description: "WordPress site for my photographer, sailor mother" },
-    /*{ pic: "img/first_app_shot.jpg", href: "http://totsmusic.herokuapp.com", description: "Ruby on Rails app - Stripe, Devise, Cancancan." }, */
-    { pic: "img/accelerate_shot.jpg", href: "http://www.atty-dev.co.uk", description: "Practice WordPress site - custom template /child themes" } 
+    { pic: "img/KD_shot.jpg", href: "http://karthaus.co.uk", title: "HTML, CSS, jQuery", description: "Responsive website HTML/CSS templates, jQuery for homepage." }, 
+    { pic: "img/dcunhavincent_shot.jpg", href: "http://www.dcunhavincent.co.uk", title: "HTML, CSS, jQuery", description: "HTML, CSS, jQuery" },
+    { pic: "img/monster_shot.jpg", href: "monsterBorn.html", title: "jQuery", description: "jQuery - simple game based on a children's book" },
+    { pic: "img/recruitmentology_shot.jpg", href: "http://http://recruitmentology.co.uk", title: "WordPress, CSS", description: "WordPress admin and CSS fixes." }, 
+    { pic: "img/janeward_screenshot.jpg", href: "http://www.attycool.com", title: "WordPress", description: "WordPress site for my photographer, sailor mother" }
+    /*{ pic: "img/first_app_shot.jpg", href: "http://totsmusic.herokuapp.com", title: "", description: "Ruby on Rails app - Stripe, Devise, Cancancan." }*/
+    /*{ pic: "img/accelerate_shot.jpg", href: "http://www.atty-dev.co.uk", title: "", description: "Practice WordPress site - custom template /child themes" } */
  
   ];
 
   /* display bg image */
   for (var i=0; i<myProjects.length; i++){
     console.log(myProjects[i]);
-      $("#" + i).css({"background": "url(" +  myProjects[i].pic + ") no-repeat", "background-position": "50% 0%" }); 
-      $("#" + i).html("<a target='blank' href=" + myProjects[i].href + "><p class='description'>"  + myProjects[i].description + "</p></a>");
+      $("#" + i).css({"background": "url(" +  myProjects[i].pic + ") no-repeat", "background-position": "50% 0%"}); 
+      /*$("#" + i).html("<a target='blank' class='screenshot-target' href=" + myProjects[i].href + "><p class='description'>"  + myProjects[i].description + "</p></a>").css({"background": "url(" +  myProjects[i].pic + ") no-repeat", "background-position": "50% 0%" });*/
   
   };
   /* display title on hover and hide on leave */
-  /*$(".image").mouseenter(function() {
-    console.log(myProjects[this.id].title);
-    $(this).html("<a target='blank' href=" + myProjects[this.id].href + "><h4 class='info'><span class='proj-title'>Title: </span>" 
-      + myProjects[this.id].title + "</h4></a>");
+ $(".image").mouseenter(function() {
+    console.log(myProjects[this.id].description);
+    $(this).html("<a target='blank' class='screenshot-target' href=" + myProjects[this.id].href + "><p class='description'>" + myProjects[this.id].description + "</p></a>");
   }).mouseleave(function() {
-    $("h4.info").html("");
-  });*/
-  /* display title on hover and hide on leave */
+    $("p.description").html("");
+    $("a.screenshot-target").css({"display": "none"});
+  });
+  /* display description on hover and hide on leave */
  
 
 /* Google Maps JavaScript APIv3 */
